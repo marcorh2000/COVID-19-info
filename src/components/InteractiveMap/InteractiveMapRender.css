@@ -1,0 +1,16 @@
+.map-container {
+  background-color: whitesmoke;
+  min-height: 100px;
+}
+
+.us-state-map {
+  max-width: 1320px;
+}
+
+.us-state-map .outlines path {
+  pointer-events: all;
+}
+.us-state-map .outlines path:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}

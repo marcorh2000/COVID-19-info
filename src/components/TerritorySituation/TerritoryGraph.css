@@ -1,0 +1,12 @@
+.graph-container {
+  height: 250px;
+  width: 100%;
+}
+
+.error {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: red !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 13, 0.25) !important;
+}
