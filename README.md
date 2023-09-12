@@ -1,6 +1,4 @@
-# COVID-19 USA Data Dashboard
-
-![Project Logo](link_to_your_logo_image.png)
+# COVID-19 USA info
 
 This project is a COVID-19 data dashboard for the USA, showcasing current information about the COVID-19 situation in each state. It also includes historical data graphs using data from the [COVID Tracking Project API](https://covidtracking.com/data/api/version-2).
 
@@ -49,10 +47,6 @@ To get started with this project:
 3. Start the development server using `npm run dev`.
 
 Make sure you have Node.js and npm (Node Package Manager) installed on your system.
-
-## Contributing
-
-Contributions to this project are welcome! Feel free to open issues, suggest improvements, or submit pull requests. Please follow the contribution guidelines and code of conduct when contributing to this project.
 
 ## License
 
