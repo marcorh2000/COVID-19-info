@@ -18,6 +18,7 @@ This project is a COVID-19 data dashboard for the USA, showcasing current inform
 - **react-helmet-async:** 1.3.0
 - **react-helmet:** 6.1.0
 - **react-redux:** 8.1.2
+- **reduxjs-toolkit:** 1.9.5
 - **react-router-dom:** 5.3.0
 - **react-usa-map:** 1.5.0
 - **@vitejs/plugin-react:** 4.0.4
