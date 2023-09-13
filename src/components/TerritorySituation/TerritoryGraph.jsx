@@ -1,7 +1,7 @@
 import BarGraph from "../Graphs/BarGraph.jsx";
 import "./TerritoryGraph.css";
-import { formatNumberThreeSignificantDigits } from "../../utils/formatOutput.js";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useSelector } from "react-redux";
 
 const TYPE_OF_DATA = ["daily", "cumulative"];
 
@@ -14,15 +14,19 @@ function TerritoryGraph({
   labels,
   graphColor,
 }) {
-  // Constants
+  // Variables
   const minDate = labels[0];
   const maxDate = labels[labels.length - 1];
-  const formattedNumber = formatNumberThreeSignificantDigits(number);
 
   // Local states
   const [typeOfGraphData, setTypeOfGraphData] = useState(TYPE_OF_DATA[0]);
   const [startDate, setStartDate] = useState(minDate);
   const [endDate, setEndDate] = useState(maxDate);
+
+  useEffect(() => {
+    setStartDate(minDate);
+    setEndDate(maxDate);
+  }, [minDate, maxDate]);
 
   // Functions
   // Check if graph is daily
