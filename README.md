@@ -47,7 +47,3 @@ To get started with this project:
 3. Start the development server using `npm run dev`.
 
 Make sure you have Node.js and npm (Node Package Manager) installed on your system.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
